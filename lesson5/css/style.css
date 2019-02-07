@@ -103,7 +103,7 @@ img.float {
 }
 
 a:hover {
-    color: darkblue;
+    color: darkblue; 
     font-size: 25px;
     /* list-style: circle; */
 }
