@@ -80,7 +80,7 @@ div:hover {
 }
 
 img:hover {
-    width:80%;
+    width: 80%;
     border-radius: 45px 10px;
 }
 
@@ -108,6 +108,6 @@ a:hover {
     /* list-style: circle; */
 }
 
-a:visited {
-    /* color: red; */
-}
+/*a:visited {
+     color: red; 
+}*/
