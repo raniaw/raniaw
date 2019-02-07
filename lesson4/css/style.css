@@ -1,0 +1,10 @@
+/* 
+this is my css-file
+*/
+h1 {
+    color:blueviolet;
+    background-color: aqua;
+    width:300px;
+    text-align: center;
+    text-transform: capitalize;
+}
