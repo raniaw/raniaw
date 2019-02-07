@@ -43,7 +43,7 @@ p {
     text-align: center;
     background-image: -webkit-linear-gradient(red,yellow)
 }
-table,tr {
+table {
     border: 2px dotted blue;
     width:900px;
     padding:5px;
@@ -53,10 +53,13 @@ table,tr {
 tr {
     border: 2px solid green;
     width:800px;
+    padding:px;
 }
 td {
     border: 1px dotted red;
     width:800px;
+    /* text-align: center;  */
+    
    
 }
 div{
@@ -65,10 +68,17 @@ div{
     height:60px;
     margin: 10px;
 }
-img {
+img.block{
     display: block;
     margin-left: auto;
-    margin-right: auto }
-    img .float{
-        float: right;
+    margin-right: auto;
+
+}
+
+img.float{
+        float: left;
+        border:2px solid rgba(30, 7, 133, 0.342); 
+        padding: 10px;
+        margin-right: 10px;
     }
+
