@@ -10,16 +10,17 @@ h1 {
 }
 
 p {
-   color: aliceblue;
+   color: green;
    padding: 10px;
    width: 800px;
    text-align: center;
    font-size: 27px;
+   text-align: justify;
    
 }
 
 #text{
-    background-image: -webkit-radial-gradient(red,blue);
+    background-image: -webkit-repeating-linear-gradient( yellow,white);
 }
 #text1{
     color: lightskyblue;
@@ -44,19 +45,28 @@ p {
 }
 table,tr {
     border: 2px dotted blue;
-    width:800px;
+    width:900px;
     padding:5px;
+    margin: 30px;
+
+    
 }
 tr {
-    border: 2px solid blue;
+    border: 2px solid green;
     width:800px;
 }
 td {
     border: 1px dotted red;
     width:800px;
+   
 }
 div{
     border:2px solid olivedrab;
     width: 80%;
     height:60px;
+    margin: 10px;
 }
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto }
