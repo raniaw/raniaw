@@ -68,6 +68,7 @@ div#content {
     width: 80%;
     height: 660px;
     margin: 10px;
+    box-shadow: 5px 15px rgba(8, 58, 1, 0.562);
 }
 
 div:hover {
