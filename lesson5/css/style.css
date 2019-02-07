@@ -20,7 +20,7 @@ p {
 }
 
 #text{
-    background-image: -webkit-repeating-linear-gradient( yellow,white);
+    background-image: linear-gradient( yellow,white);
 }
 #text1{
     color: lightskyblue;
