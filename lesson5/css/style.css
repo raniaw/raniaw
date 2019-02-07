@@ -2,98 +2,111 @@
 this is my css-file
 */
 
-
 p {
-   color: green;
-   padding: 10px;
-   width: 800px;
-   text-align: center;
-   font-size: 25px;
-   text-align: justify;
-   
+    color: green;
+    padding: 10px;
+    width: 800px;
+    text-align: center;
+    font-size: 25px;
+    text-align: justify;
 }
 
-#text{
-    background-image: linear-gradient( yellow,white);
+#text {
+    background-image: linear-gradient( yellow, white);
     margin: 0px;
 }
-#text1{
+
+#text1 {
     color: lightskyblue;
     font-size: 10px;
 }
-#text2{
-    background-color:yellowgreen;
-    color:rgb(205, 68, 50);
-    text-align: justify;
 
+#text2 {
+    background-color: yellowgreen;
+    color: rgb(205, 68, 50);
+    text-align: justify;
 }
-.safari{
+
+.safari {
     border-color: rgb(8, 8, 122);
-    color:white;
+    color: white;
     padding: 25px;
     background-color: rgb(26, 117, 4);
-    width:900px;
+    width: 900px;
     text-shadow: 20px;
     text-transform: uppercase;
     text-align: center;
-    background-image: -webkit-linear-gradient(red,yellow)
+    background-image: -webkit-linear-gradient(red, yellow)
 }
+
 table {
     border: 2px dotted blue;
-    width:900px;
-    padding:5px;
+    width: 900px;
+    padding: 5px;
     margin: 30px;
+}
 
-}
 tr {
-    border: 3px solid green;
-    
+    border: 3px double green;
 }
+
 td {
     border: 1px dotted red;
-    width:800px;
+    width: 800px;
     /* text-align: center;  */
-    
-   
 }
-div.header{
-    background-color: aquamarine;
-    height:50px;
-    width:250px;
-    border-bottom: 2px solid yellow;    
 
+div.header {
+    background-color: aquamarine;
+    height: 50px;
+    width: 250px;
+    border-bottom: 2px solid yellow;
 }
-div#content{
-    border:2px solid olivedrab;
+
+div#content {
+    border: 2px solid olivedrab;
     width: 80%;
-    height:660px;
+    height: 660px;
     margin: 10px;
 }
-div:hover{
+
+div:hover {
     /* background: -moz-radial-gradient(blue, red); */
     /* background: radial-gradient(blue,white) */
     background-image: url(../img/images.png);
     background-repeat: repeat-y;
-    opacity: 0.37;
+    border-radius: 25px;
 }
-img.block{
+
+img:hover {
+    width:80%;
+    border-radius: 45px 10px;
+}
+
+img.block {
     display: block;
     margin-left: auto;
     margin-right: auto;
-
+    opacity: 0.37;
 }
 
-img.float{
-        float: left;
-        border:2px solid rgba(30, 7, 133, 0.342); 
-        padding: 10px;
-        margin-right: 10px;
-    }
-a:hover{
-    color: green;
+img.block:hover {
+    opacity: 1;
+}
+
+img.float {
+    float: left;
+    border: 2px solid rgba(30, 7, 133, 0.342);
+    padding: 10px;
+    margin-right: 10px;
+}
+
+a:hover {
+    color: darkblue;
     font-size: 25px;
+    /* list-style: circle; */
 }
-a:visited{
-    color: blueviolet;
 
+a:visited {
+    /* color: red; */
 }
