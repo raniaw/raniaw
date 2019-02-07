@@ -21,6 +21,7 @@ p {
 
 #text{
     background-image: linear-gradient( yellow,white);
+    margin: 0px;
 }
 #text1{
     color: lightskyblue;
