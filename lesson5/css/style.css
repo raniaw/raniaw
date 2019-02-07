@@ -57,8 +57,13 @@ td {
    
 }
 div.header{
-    background: aqua;
+    background-color: aquamarine;
+    height:50px;
+    width:250px;
+    border-bottom: 2px solid yellow;    
+
 }
+
 div#content{
     border:2px solid olivedrab;
     width: 80%;
@@ -67,7 +72,9 @@ div#content{
 }
 div:hover{
     /* background: -moz-radial-gradient(blue, red); */
-    background: radial-gradient(blue,white)
+    /* background: radial-gradient(blue,white) */
+    background-image: url(../img/images.png);
+    background-repeat: repeat-y;
 }
 img.block{
     display: block;
