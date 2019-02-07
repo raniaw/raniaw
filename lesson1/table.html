@@ -1,0 +1,66 @@
+﻿<html>
+	<head>
+	<title>The table site</title>
+<style>	
+	body {
+	background: linear-gradient(blue, yellow)}
+	table{
+	border:4px solid indigo;
+	border-collapse: collapse; 
+	width:600px;
+	}
+	tr, th {
+	border:3px solid red;
+	border-collapse: collapse; 
+	
+	color:aqua;
+	}
+	td{
+	border:2px solid aqua;
+	padding: 20px; 
+	width: 150px;
+	background: linear-gradient(violet, yellow)
+	}
+	p {
+	color:white;
+	font-size: 25px;
+	}
+</style>
+	</head>
+	
+	<body >
+	
+	<p >This is my table with border-collapse - Zusammenfallende Rahmen</p>
+
+	<table  >
+	<tr style="font-family:Helvetica; font-size:30px;">
+	<th>
+	Description
+	</th>
+	<th>
+	Foto
+	</th>
+	</tr>
+	<tr align="center">
+	<td>
+	<h1 style="color:blue;font-family:Lucida Console; font-size:30px">The style td - gradient background</h1>
+	
+	<p style="color:violet;font-family:Lucida Console; font-size:30px">go to <b><a href="http://www.google.de">Google</a></b></p>
+	</td>
+	<td  style="background-image: linear-gradient(red, yellow, green);">
+		<a href="https://de.wiktionary.org/wiki/Sonnenaufgang"><img src="img/300px-Biwa_Lake.jpg" title="Sonnenuntergang"/></a>
+	</td>
+	</tr>
+
+	<tr  align="right">
+		<td style=" background-image: radial-gradient(blue, darkred); color:white">
+		<h1>The body td - gradient background</h1>
+		<p ><em>2</em></p>
+		</td>
+		<td  style="background-image: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet);"><img src="img/300px-Biwa_Lake.jpg" width="150" height="125" />
+		</td>
+	</tr>
+	</table>
+
+	
+</html>
