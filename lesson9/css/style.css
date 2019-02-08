@@ -3,10 +3,12 @@
     height:100px;
     border: 1px solid gray;
     background-color: aqua;
+    float:right;
 }
 #div2{
     width:100px;
     height:100px;
     border: 1px solid red;
-    background-image: linear-gradient(red, orange)
+    background-image: linear-gradient(red, orange);
+    float: left;
 }
