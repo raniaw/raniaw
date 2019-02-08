@@ -27,15 +27,18 @@ h1 {
     border: 2px solid green;
     /* clear: both; */
 }
+
 span {
     color: blueviolet;
-    width:100px;
+    width: 100px;
     border: 1px solid black;
     /* display: block; */
 }
+
 /* div{
     display: inline;
 } */
+
 /* span#1 {
     color: blueviolet;
 }
