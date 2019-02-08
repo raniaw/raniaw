@@ -12,7 +12,15 @@
     background-image: linear-gradient(red, orange);
     float: left;
 }
+#div3{
+    width:100px;
+    height:100px;
+    border: 1px solid red;
+    background-image: linear-gradient(blue, lightgreen);
+    float: left;
+}
 h1{
     color:blue;
     border:2px solid green;
+    /* clear: both; */
 }
