@@ -37,50 +37,68 @@ span {
     /* display: block; */
 }
 
-div{
+div {
     /* margin:0 auto; */
     /* display: inline; */
 }
-.nav ul{
+
+.nav ul {
     text-align: center;
     list-style: none;
-    border:1px solid blue;
-   
+    border: 1px solid blue;
     margin: auto;
-    padding: 20px;
+    padding: 0px 0px 20px 0px;
     height: 40px;
     /* width:100%;  */
-    background-image: linear-gradient(blue, white);
+    background-image: linear-gradient(white, darkblue, white);
 }
-.nav ul li{
-    float:left;
-   padding: 20px;
-    /* padding:15px; */
+
+.nav ul li {
+    float: left;
+    padding: 20px 0px 20px 0px;
     border-right: 1px solid white;
-    color:white;
-    /* height: 40px; */
+    color: white;
+    height: 40px;
+   
     /* background-image: linear-gradient(blue, white); */
     /* width:100px; */
-
 }
-.nav ul li a{
-    text-decoration: none;
-    color:white;
-    text-align: center;
-    /* padding: 20px; */
 
+.nav ul li a {
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    padding: 0px 20px 0px 20px;
+    font-size: 20px;
     
 }
-.nav ul li a:hover{
+
+.nav ul li a:hover {
     text-decoration: none;
-    color:white;
+    color: white;
     text-align: center;
-    padding: 20px;
+    padding: 20px 20px 20px 20px ;
     background-color: grey;
-
-    
+    margin: 0 auto;
+    font-size: 20px;
+    border: 1px 1px 0px 0px solid grey;
 }
 
+.nav ul li a:active {
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    padding: 20px 20px 20px 20px;
+    background-color: black;
+    
+}
+/* .nav ul li a:visited {
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    padding: 20px 20px 20px 20px;
+    background-color: black;
+} */
 
 /* span#1 {
     color: blueviolet;
