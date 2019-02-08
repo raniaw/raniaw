@@ -12,3 +12,7 @@
     background-image: linear-gradient(red, orange);
     float: left;
 }
+h1{
+    color:blue;
+    border:2px solid green;
+}
