@@ -41,6 +41,23 @@ div{
     /* margin:0 auto; */
     /* display: inline; */
 }
+.nav ul{
+    list-style: none;
+    text-align: center;
+}
+.nav ul li{
+    float:left;
+    padding:15px;
+    border:1px solid blue;
+    color:white;
+    background-image: linear-gradient(blue, white);
+    width:100px;
+
+}
+a{
+    color:white;
+}
+
 
 /* span#1 {
     color: blueviolet;
