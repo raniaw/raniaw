@@ -75,13 +75,12 @@ span {
 
 .nav ul li a:hover {
     text-decoration: none;
-    color: white;
+    color: darkblue;
     text-align: center;
     padding: 20px 20px 20px 20px ;
-    background-color: grey;
+    background-image: linear-gradient( darkblue, white, darkblue);
     margin: 0 auto;
     font-size: 20px;
-    border: 1px 1px 0px 0px solid grey;
 }
 
 .nav ul li a:active {
@@ -89,7 +88,7 @@ span {
     color: white;
     text-align: center;
     padding: 20px 20px 20px 20px;
-    background-color: black;
+    background-image: linear-gradient(white, black, white);
     
 }
 /* .nav ul li a:visited {
