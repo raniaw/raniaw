@@ -37,10 +37,10 @@ span {
     /* display: block; */
 }
 
-div {
-    /* margin:0 auto; */
-    /* display: inline; */
-}
+/* div {
+    margin:0 auto; 
+   display: inline; 
+} */
 
 .nav ul {
     text-align: center;
