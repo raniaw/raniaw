@@ -42,20 +42,43 @@ div{
     /* display: inline; */
 }
 .nav ul{
-    list-style: none;
     text-align: center;
+    list-style: none;
+    border:1px solid blue;
+   
+    margin: auto;
+    padding: 20px;
+    height: 40px;
+    /* width:100%;  */
+    background-image: linear-gradient(blue, white);
 }
 .nav ul li{
     float:left;
-    padding:15px;
-    border:1px solid blue;
+   padding: 20px;
+    /* padding:15px; */
+    border-right: 1px solid white;
     color:white;
-    background-image: linear-gradient(blue, white);
-    width:100px;
+    /* height: 40px; */
+    /* background-image: linear-gradient(blue, white); */
+    /* width:100px; */
 
 }
-a{
+.nav ul li a{
+    text-decoration: none;
     color:white;
+    text-align: center;
+    /* padding: 20px; */
+
+    
+}
+.nav ul li a:hover{
+    text-decoration: none;
+    color:white;
+    text-align: center;
+    padding: 20px;
+    background-color: grey;
+
+    
 }
 
 
