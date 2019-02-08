@@ -1,26 +1,45 @@
-#div1{
-    width:100px;
-    height:100px;
+#div1 {
+    width: 100px;
+    height: 100px;
     border: 1px solid gray;
     background-color: aqua;
-    float:right;
+    /* float: right; */
 }
-#div2{
-    width:100px;
-    height:100px;
+
+#div2 {
+    width: 100px;
+    height: 100px;
     border: 1px solid red;
     background-image: linear-gradient(red, orange);
-    float: left;
+    /* float: left; */
 }
-#div3{
-    width:100px;
-    height:100px;
+
+#div3 {
+    width: 100px;
+    height: 100px;
     border: 1px solid red;
     background-image: linear-gradient(blue, lightgreen);
-    float: left;
+    /* float: left; */
 }
-h1{
-    color:blue;
-    border:2px solid green;
+
+h1 {
+    color: blue;
+    border: 2px solid green;
     /* clear: both; */
 }
+span {
+    color: blueviolet;
+    width:100px;
+    border: 1px solid black;
+    /* display: block; */
+}
+/* div{
+    display: inline;
+} */
+/* span#1 {
+    color: blueviolet;
+}
+
+span#2 {
+    color:red;
+} */
