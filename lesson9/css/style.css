@@ -1,0 +1,108 @@
+#div1 {
+    /* align-content: center; */
+    width: 100px;
+    height: 100px;
+    border: 1px solid gray;
+    background-color: aqua;
+    text-align: center;
+    /* float: right; */
+}
+
+#div2 {
+    width: 100px;
+    height: 100px;
+    border: 1px solid red;
+    background-image: linear-gradient(red, orange);
+    /* float: left; */
+}
+
+#div3 {
+    width: 100px;
+    height: 100px;
+    border: 1px solid red;
+    background-image: linear-gradient(blue, lightgreen);
+    /* float: left; */
+}
+
+h1 {
+    color: blue;
+    border: 2px solid green;
+    /* clear: both; */
+}
+
+span {
+    color: blueviolet;
+    width: 100px;
+    border: 1px solid black;
+    /* display: block; */
+}
+
+/* div {
+    margin:0 auto; 
+   display: inline; 
+} */
+
+.nav ul {
+    text-align: center;
+    list-style: none;
+    border: 1px solid blue;
+    margin: auto;
+    padding: 0px 0px 20px 0px;
+    height: 40px;
+    /* width:100%;  */
+    background-image: linear-gradient(white, darkblue, white);
+}
+
+.nav ul li {
+    float: left;
+    padding: 20px 0px 20px 0px;
+    border-right: 1px solid white;
+    color: white;
+    height: 40px;
+   
+    /* background-image: linear-gradient(blue, white); */
+    /* width:100px; */
+}
+
+.nav ul li a {
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    padding: 0px 20px 0px 20px;
+    font-size: 20px;
+    
+}
+
+.nav ul li a:hover {
+    text-decoration: none;
+    color: darkblue;
+    text-align: center;
+    padding: 20px 20px 20px 20px ;
+    background-image: linear-gradient( darkblue, white, darkblue);
+    margin: 0 auto;
+    font-size: 20px;
+}
+
+.nav ul li a:active {
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    padding: 20px 20px 20px 20px;
+    background-image: linear-gradient(white, black, white);
+    
+}
+/* .nav ul li a:visited {
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    padding: 20px 20px 20px 20px;
+    background-color: black;
+} */
+
+/* span#1 {
+    color: blueviolet;
+}
+
+span#2 {
+    color:red;
+} */
