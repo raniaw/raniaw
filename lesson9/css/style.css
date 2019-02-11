@@ -77,7 +77,7 @@ span {
     color: darkblue;
     text-align: center;
     padding: 20px;
-    background-image:linear-gradient(darkblue,white, darkblue);
+    background-image: linear-gradient(darkblue, white, darkblue);
     margin: 0 auto;
     font-size: 20px;
 }
@@ -94,39 +94,46 @@ span {
     list-style: none;
     /* height: 40px; */
     width: 200px;
+    height:200px;
+    overflow: hidden;
+    margin: 0;
+    margin-top: 10px;
+    padding: 0;
     /* background-image: linear-gradient(white, darkblue, white); */
 }
 
 .nav1 ul li {
-    
     list-style-type: none;
     margin: 0;
-    padding: 0px;
+    padding: 0;
     width: 200px;
+    height: 33%;
+    border: 1px solid white;
     background-image: linear-gradient( darkblue, white, darkblue);
 }
 
 .nav1 ul li a {
-   
     text-decoration: none;
     display: block;
-    color: #000;
-    font-size:20px;
+    color: darkblue;
+    font-weight: bold;
+    font-size: 20px;
     padding: 20px;
-    text-decoration: none;
-   text-align: center;
+    text-align: center;
+    
 }
 
 .nav1 ul li a:hover {
     background-color: #555;
-    color: white;
+    padding: 20px 0 22px 0;
+    color: white;  
 }
 
 .nav1 ul li a:active {
     text-decoration: none;
     color: white;
     text-align: center;
-    padding: 20px;
+    /* padding: 20px 0 20px 0; */
     background-image: linear-gradient(white, black, white);
 }
 
