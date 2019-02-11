@@ -1,3 +1,6 @@
+body{
+    height:2000px;
+}
 #div1 {
     /* align-content: center; */
     width: 100px;
@@ -129,11 +132,16 @@ span {
     color: white;  
 }
 
-.nav1 ul li a:active {
+.nav1 ul li a:acti5,ve {
     text-decoration: none;
     color: white;
     text-align: center;
     background-image: linear-gradient(white, black, white);
+}
+.nav2 { 
+    position: fixed;
+    top: 45%;
+    /* top: 455px; */
 }
 .nav2 ul {
     list-style: none;
