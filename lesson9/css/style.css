@@ -1,26 +1,78 @@
+body{
+    height:2000px;
+}
 #div1 {
     /* align-content: center; */
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
     border: 1px solid gray;
     background-color: aqua;
     text-align: center;
-    /* float: right; */
+    position: absolute;
+    /* top: 100px;
+    right: 200px; */
+    left: 200px;
+    bottom: 200px;
+    /* float: left; */
 }
 
 #div2 {
-    width: 100px;
-    height: 100px;
+    width: 120px;
+    height: 120px;
+    position:absolute;
+    top:50%;
+    right:50%;
     border: 1px solid red;
     background-image: linear-gradient(red, orange);
     /* float: left; */
 }
 
 #div3 {
-    width: 100px;
-    height: 100px;
+    width: 200px;
+    height: 200px;
+    /* position: absolute;
+    top: 0px;
+    left: 0px; */
     border: 1px solid red;
     background-image: linear-gradient(blue, lightgreen);
+    /* float: left; */
+}
+#div4 {
+    width: 100px;
+    height: 100px;
+    text-align: right;
+    margin: 0;
+    position:absolute;
+    top:0px;
+    left:0px;
+    /* display:none; */
+    border: 1px solid red;
+    background-image: linear-gradient(blue, lightgreen);
+    /* float: left; */
+}
+#div5 {
+    width: 200px;
+    height: 200px;
+    position:relative;
+    top:20px;
+    right: 20px;
+    margin: 0;
+    border: 1px solid red;
+    background-color:  lightgreen;
+    text-align: right;
+    /* float: left; */
+}
+
+#div6 {
+    width: 200px;
+    height: 200px;
+    position:relative;
+    top:70px;
+    left: 150px;
+    margin: 0;
+    border: 1px solid red;
+    background-color:  rgb(56, 156, 173);
+    text-align: right;
     /* float: left; */
 }
 
@@ -59,7 +111,6 @@ span {
     border-right: 1px solid white;
     color: white;
     height: 40px;
-   
     /* background-image: linear-gradient(blue, white); */
     /* width:100px; */
 }
@@ -70,15 +121,15 @@ span {
     text-align: center;
     padding: 0px 20px 0px 20px;
     font-size: 20px;
-    
+    vertical-align: middle;
 }
 
 .nav ul li a:hover {
     text-decoration: none;
     color: darkblue;
     text-align: center;
-    padding: 20px 20px 20px 20px ;
-    background-image: linear-gradient( darkblue, white, darkblue);
+    padding: 20px;
+    background-image: linear-gradient(darkblue, white, darkblue);
     margin: 0 auto;
     font-size: 20px;
 }
@@ -87,10 +138,118 @@ span {
     text-decoration: none;
     color: white;
     text-align: center;
-    padding: 20px 20px 20px 20px;
+    padding: 20px;
     background-image: linear-gradient(white, black, white);
+}
+
+.nav1 {
+    position: absolute;
+    /* top: 200px;
+    right: 200px; */
+}
+.nav1 ul {
+    list-style: none;
+    /* height: 40px; */
+    width: 200px;
+    height:200px;
+    overflow: hidden;
+    margin: 0;
+    margin-top: 10px;
+    padding: 0;
+    /* background-image: linear-gradient(white, darkblue, white); */
+}
+
+.nav1 ul li {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    height: 33%;
+    border: 1px solid white;
+    background-image: linear-gradient( rgb(10, 80, 4), white, rgb(10, 80, 4));
+}
+
+.nav1 ul li a {
+    text-decoration: none;
+    display: block;
+    color:  rgb(10, 80, 4);
+    font-weight: bold;
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
     
 }
+
+.nav1 ul li a:hover {
+    background-color: #555;
+    padding: 20px 0 23px 0;
+    color: white;  
+}
+
+.nav1 ul li a:acti5,ve {
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    background-image: linear-gradient(white, black, white);
+}
+.nav2 { 
+    position: fixed;
+    top: 65%;
+    /* top: 455px; */
+}
+.nav2 ul {
+    list-style: none;
+    width: 200px;
+    height:200px;
+    overflow: hidden;
+    margin: 0;
+    margin-top: 10px;
+    padding: 0;
+    /* background-image: linear-gradient(white, darkblue, white); */
+}
+
+.nav2 ul li {
+    display: block;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    height: 33%;
+    border: 1px solid white;
+    background-image: linear-gradient( darkblue, white, darkblue);
+}
+
+.nav2 ul li a {
+    text-decoration: none;
+    display: block;
+    color: darkblue;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 21px;
+    text-align: center;
+    
+}
+
+.nav2 ul li a:hover {
+    background-color: #555;
+    padding: 21px 0 23px ;
+    color: white;  
+}
+
+.nav2 ul li a:active {
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    /* padding: 20px 0 20px 0; */
+    background-image: linear-gradient(white, black, white);
+}
+
+.nav2 ul li a.active{
+    background-image: linear-gradient(white, black, white);
+    padding:21px 0 23px;
+    color:white;
+}
+
 /* .nav ul li a:visited {
     text-decoration: none;
     color: white;

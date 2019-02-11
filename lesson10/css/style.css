@@ -1,0 +1,73 @@
+body {
+    height: 2000px;
+    background-image: radial-gradient(red, yellow, green,blue,violet)
+}
+
+.nav {
+    position: fixed;
+    margin:0;
+    top:0;
+    left:0;
+    height: 40px;
+    width: 100%;
+    padding:0px;
+}
+
+.nav ul {
+    text-align: center;
+    list-style: none;
+    border: 1px solid blue;
+    margin: auto;
+    padding: 0px 0px 20px 0px;
+    height: 40px;
+    /* width:100%;  */
+    background-image: linear-gradient(white, darkblue, white);
+}
+
+.nav ul li {
+    float: left;
+    padding: 20px 0px 20px 0px;
+    border-right: 1px solid white;
+    color: white;
+    height: 20px;
+    /* background-image: linear-gradient(blue, white); */
+    /* width:100px; */
+}
+
+.nav ul li a {
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    padding: 0px 20px 0px 20px;
+    font-size: 20px;
+    vertical-align: middle;
+}
+
+.nav ul li a:hover {
+    text-decoration: none;
+    color: darkblue;
+    text-align: center;
+    padding: 20px;
+    background-image: linear-gradient(darkblue, white, darkblue);
+    margin: 0 auto;
+    font-size: 20px;
+}
+
+.nav ul li a:active {
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    background-image: linear-gradient(white, black, white);
+}
+.footer{
+    /* position: fixed; */
+    /* margin:0; */
+    /* bottom:0;
+    left:0; */
+    height: 40px;
+    width: 100%;
+    padding:0px;
+    border: 1px solid green;
+    background-color: green;
+}
