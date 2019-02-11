@@ -3,27 +3,76 @@ body{
 }
 #div1 {
     /* align-content: center; */
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
     border: 1px solid gray;
     background-color: aqua;
     text-align: center;
-    /* float: right; */
+    position: absolute;
+    /* top: 100px;
+    right: 200px; */
+    left: 200px;
+    bottom: 200px;
+    /* float: left; */
 }
 
 #div2 {
-    width: 100px;
-    height: 100px;
+    width: 120px;
+    height: 120px;
+    position:absolute;
+    top:50%;
+    right:50%;
     border: 1px solid red;
     background-image: linear-gradient(red, orange);
     /* float: left; */
 }
 
 #div3 {
-    width: 100px;
-    height: 100px;
+    width: 200px;
+    height: 200px;
+    /* position: absolute;
+    top: 0px;
+    left: 0px; */
     border: 1px solid red;
     background-image: linear-gradient(blue, lightgreen);
+    /* float: left; */
+}
+#div4 {
+    width: 100px;
+    height: 100px;
+    text-align: right;
+    margin: 0;
+    position:absolute;
+    top:0px;
+    left:0px;
+    /* display:none; */
+    border: 1px solid red;
+    background-image: linear-gradient(blue, lightgreen);
+    /* float: left; */
+}
+#div5 {
+    width: 200px;
+    height: 200px;
+    position:relative;
+    top:20px;
+    right: 20px;
+    margin: 0;
+    border: 1px solid red;
+    background-color:  lightgreen;
+    text-align: right;
+    /* float: left; */
+}
+
+#div6 {
+    width: 200px;
+    height: 200px;
+    position:relative;
+    top:70px;
+    left: 150px;
+    margin: 0;
+    border: 1px solid red;
+    background-color:  rgb(56, 156, 173);
+    text-align: right;
     /* float: left; */
 }
 
@@ -93,6 +142,11 @@ span {
     background-image: linear-gradient(white, black, white);
 }
 
+.nav1 {
+    position: absolute;
+    /* top: 200px;
+    right: 200px; */
+}
 .nav1 ul {
     list-style: none;
     /* height: 40px; */
