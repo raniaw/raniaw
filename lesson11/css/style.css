@@ -16,6 +16,7 @@ img[title~="image"] {
 }
 
 img[title~="car"] {
+    /* all ellement mit title car */
     /*search word image in title*/
     border: 2px solid rgb(172, 11, 65);
 }
@@ -25,6 +26,7 @@ img[src="img/london.jpg"] {
 }
 
 img[src*="images"] {
+    /* all elements with name "images"  */
     border: 3px solid rgb(255, 0, 0);
 }
 
@@ -32,10 +34,15 @@ img[src*="images"] {
 [class|="class"]{
     border: 2px solid limegreen;
 }
-[class*="class"]{
+[class*="class"]{ all elements with *class
     background-color: lightcoral;
-} */
-
-[class^="class"] {
+} 
+[class^="class"] {  all elements begin with "class"
     background-color: darkorchid;
+}
+*/
+
+[class$="class"] {
+    /*all elements, there have inside word class, not befor begin*/
+    background-color: rgb(176, 122, 202);
 }
