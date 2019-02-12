@@ -1,21 +1,41 @@
 a[target] {
     background-color: yellow;
 }
+
 a[target="_top"] {
-    background-color:rgb(58, 185, 164);
+    background-color: rgb(58, 185, 164);
 }
-h1[title]{
-color:red;
+
+h1[title] {
+    color: red;
 }
-img[title~="image"]{/*search word image in title*/
-    border:2px solid green;
+
+img[title~="image"] {
+    /*search word image in title*/
+    border: 2px solid green;
 }
-img[title~="car"]{/*search word image in title*/
-    border:2px solid rgb(172, 11, 65);
+
+img[title~="car"] {
+    /*search word image in title*/
+    border: 2px solid rgb(172, 11, 65);
 }
-img[src="img/london.jpg"]{
+
+img[src="img/london.jpg"] {
     border: 3px solid orange;
 }
-img[src*="images"]{
+
+img[src*="images"] {
     border: 3px solid rgb(255, 0, 0);
+}
+
+/* 
+[class|="class"]{
+    border: 2px solid limegreen;
+}
+[class*="class"]{
+    background-color: lightcoral;
+} */
+
+[class^="class"] {
+    background-color: darkorchid;
 }
