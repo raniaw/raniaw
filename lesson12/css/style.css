@@ -1,5 +1,14 @@
 .highlight:hover {
-    color: #ff0000;
+    color: green;
+}
+/*unvisited link*/
+a:link{
+    color:rgb(248, 95, 39);
+    font-size: 20px;
+}
+/*visited link*/
+a:visited{
+    color:blue;
 }
 div{
     color:white;
