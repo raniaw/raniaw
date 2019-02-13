@@ -1,10 +1,24 @@
-div.gallery{
-    width:300px;
-    border: 2px solid blue;
+div.gallery {
+    width: 304px;
+    /* height: 304px; */
+    border: 2px solid rgba(152, 170, 179, 0.342);
     float: left;
+    margin: 5px;
 }
 
-img{
-    width:300px;
-    margin:0;
+div.gallery img {
+    border: 2px solid blue;
+    width: 300px;
+    height: 250px;
+    margin: 0;
+    opacity: 0.3;
+}
+
+div.gallery img:hover{
+    border: 2px solid yellow;
+    opacity: 1.0;
+}
+div.gallery p {
+    text-align: center;
+    padding: 15px;
 }
