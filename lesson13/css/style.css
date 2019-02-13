@@ -5,7 +5,8 @@ div.gallery {
     float: left;
     margin: 5px;
     background-color: rgb(2, 88, 2);
-    transition: background 2s, margin-top 2s, border-radius 3s;
+    transition: background 2s, transform 2s, border-radius 3s;
+    /* margin-top 2s, */
 }
 div.gallery:hover {
     border: 2px solid green;
@@ -13,7 +14,9 @@ div.gallery:hover {
     border-radius: 10px;
     filter: blur(0px);
     background: lightseagreen;
-    margin-top:100px;
+    /* margin-top:100px; */
+    transform: rotateZ(360deg);
+
 }
 
 
