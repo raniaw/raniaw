@@ -14,10 +14,11 @@ div.gallery img {
     opacity: 0.3;
 }
 
-div.gallery img:hover{
+div.gallery img:hover {
     border: 2px solid yellow;
     opacity: 1.0;
 }
+
 div.gallery p {
     text-align: center;
     padding: 15px;
