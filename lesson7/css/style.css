@@ -29,7 +29,8 @@ section {
 }
 
 article {
-    width: 84.7%;
+    /* width: 84.7%; */
+    width: 84.698%;
     height: 249px;
     float: right;
     border: 1px solid grey;
