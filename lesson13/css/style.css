@@ -5,31 +5,41 @@ div.gallery {
     float: left;
     margin: 5px;
     background-color: rgb(2, 88, 2);
+    transition: background 2s, margin-top 2s, border-radius 3s;
+}
+div.gallery:hover {
+    border: 2px solid green;
+    opacity: 1.0;
+    border-radius: 10px;
+    filter: blur(0px);
+    background: lightseagreen;
+    margin-top:100px;
 }
 
+
 div.gallery img {
-    border: 2px solid blue;
+    border: 2px solid rgb(15, 15, 192);
     width: 300px;
     height: 250px;
     margin: 0;
     opacity: 0.3;
-    filter:blur(2px);
+    filter: blur(2px);
     transition: opacity 3s, border-radius 3s, filter 2s;
 }
 
 div.gallery img:hover {
     border: 2px solid yellow;
     opacity: 1.0;
-    border-radius: 25px;
-    filter:blur(0px);
-    
-}
+    border-radius: 35px;
+    filter: blur(0px);
+    background: lightseagreen;
+}  
 
 div.gallery p {
     text-align: center;
     padding: 15px;
     font-size: 35px;
-    color:aquamarine;
+    color: green;
     transition: color 3s, text-align 3s, text-shadow 3s, font-weight 3s, font-size 3s;
     font-family: 3s;
 }
