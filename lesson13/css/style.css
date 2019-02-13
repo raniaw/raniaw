@@ -1,0 +1,10 @@
+div.gallery{
+    width:300px;
+    border: 2px solid blue;
+    float: left;
+}
+
+img{
+    width:300px;
+    margin:0;
+}
