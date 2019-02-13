@@ -15,7 +15,9 @@ div.gallery:hover {
     filter: blur(0px);
     background: lightseagreen;
     /* margin-top:100px; */
-    transform: rotateZ(360deg);
+    /* transform: rotateZ(180deg); */
+    transform: rotateY(180deg);
+    /* transform: rotateX(180deg); */
 
 }
 
@@ -44,7 +46,7 @@ div.gallery p {
     font-size: 35px;
     color: green;
     transition: color 3s, text-align 3s, text-shadow 3s, font-weight 3s, font-size 3s;
-    font-family: 3s;
+    font-family: 3s, transform 2s;
 }
 
 div.gallery p:hover {
@@ -54,4 +56,5 @@ div.gallery p:hover {
     font-family: 'Franklin Gothic Medium';
     text-shadow: 3px 2px rgb(248, 252, 2);
     text-align: center;
+    transform: rotateY(180deg);
 }
