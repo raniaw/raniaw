@@ -1,0 +1,65 @@
+div.gallery {
+    width: 304px;
+    /* height: 304px; */
+    border: 2px solid rgba(152, 170, 179, 0.342);
+    float: left;
+    margin: 5px;
+    background-color: rgb(2, 88, 2);
+    transition: background 2s, border-radius 3s;
+    /* margin-top 2s,transform 2s,  */
+}
+
+div.gallery:hover {
+    border: 2px solid green;
+    opacity: 1.0;
+    border-radius: 10px;
+    filter: blur(0px);
+    background: lightseagreen;
+    /* margin-top:100px; */
+    /* transform: rotateZ(180deg);
+    transform: rotateY(180deg);
+    /* transform: rotateX(180deg);*/
+}
+
+div.gallery:hover p {
+ 
+    display: block;
+}
+
+div.gallery img {
+    border: 2px solid rgb(15, 15, 192);
+    width: 300px;
+    height: 250px;
+    margin: 0;
+    opacity: 0.3;
+    filter: blur(2px);
+    transition: opacity 3s, border-radius 3s, filter 2s;
+}
+
+div.gallery img:hover {
+    border: 2px solid yellow;
+    opacity: 1.0;
+    border-radius: 35px;
+    filter: blur(0px);
+    background: lightseagreen;
+}
+
+div.gallery p {
+    display: none;
+    text-align: center;
+    padding: 15px;
+    font-size: 35px;
+    color: green;
+    transition: color 3s, display 2s, text-align 3s, text-shadow 3s, font-weight 3s, font-size 3s;
+    font-family: 3s, transform 2s;
+}
+
+div.gallery p:hover {
+    color: rgb(18, 138, 44);
+    font-size: 35px;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium';
+    text-shadow: 3px 2px rgb(248, 252, 2);
+    text-align: center;
+    /* transform: rotateY(180deg); */
+}

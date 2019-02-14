@@ -1,0 +1,42 @@
+.highlight:hover {
+    color: green;
+}
+/*unvisited link*/
+a:link{
+    color:rgb(248, 95, 39);
+    font-size: 20px;
+}
+/*visited link*/
+a:visited{
+    color:blue;
+}
+a:hover{
+    color:yellow;
+}
+/*selected link- mouse down*/
+a:active{
+    color: aqua;
+}
+div{
+    color:white;
+    background-color: blueviolet;
+    padding: 30px;
+    text-align:center;
+    width: 300px;
+    font-size: 20px;
+    font-weight: bold;
+    display: block;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+div:hover{
+    background-color: white;
+    border:1px solid blueviolet;
+    color: blueviolet;
+   
+}
+
+div:hover #hidden{
+    display:none;
+}
+
+
