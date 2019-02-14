@@ -1,0 +1,16 @@
+input[type=text] {
+    width: 100%;
+    border-radius: 15px;
+    border:2px solid blueviolet;
+    margin: 5px;
+    line-height: 1.5em;
+    background-color: rgb(253, 197, 255);
+}
+input[type=text]:focus{
+    border:2px solid rgb(14, 156, 149);
+    border-radius: 15px;
+    background-color:  rgb(197, 241, 239);
+}
+input[type=button] {
+    /* width:100%; */
+}
