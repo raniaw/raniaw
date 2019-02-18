@@ -6,13 +6,34 @@
         HTML Forms
     </title>
     <link rel="stylesheet" href="css/style.css" type="text/css">
-    <script type="javascript" src="js/script.js"></script>
-    
+    <script type="text/javascript" src="js/script.js"></script>
 </head>
 
 <body>
     <p id="first"> Welcome to JS</p>
     <button onclick="document.getElementById('first').innerHTML='The content is change using JS'">Click me</button>
+
+    <br>
+    <br>
+    <button onmouseover="document.getElementById('img').style.display='none';" onmouseout="document.getElementById('img').style.display='block';"> mouseover / mouseout hide img</button>
+    <br><br>
+    <img id="img" width='500px' src="img/3.jpg" alt=""><br><br>
+
+    <button onclick="document.getElementById('img').style.display='block'">Show the image</button>
+    <button onclick="document.getElementById('img').style.display='none'">hide img</button><br>
+    <br>
+
+    <button onmouseover="document.getElementById('img').style.display='none';"> mouseover hide img</button>
+    <button onmouseover="document.getElementById('img').style.display='block'">Show onmouseover the image</button><br>
+
+    <button id="showhide" onclick="showhide()">Show / Hide</button>
+    <br><br>
+    <button onclick="document.body.style.background='red'">background is red</button>
+    <a href="#" onclick="document.body.style.background='gray'">change background</a>
+    <br><br>
+    <button class="but" onclick="changestyle()">change style of p</button><br><br>
+
+    <button></button>
 </body>
 
 </html>
