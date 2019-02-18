@@ -22,5 +22,13 @@ function changestyle() {
         document.getElementsByTagName('button')[i].style.backgroundColor = "yellow";
     }
     // console.log(getElementsByTagName('button').style.background);
+    var newwidth = "200px;"
+    var hello = "Hello";
+    alert(hello + " " + newwidth);
+}
 
+function welcome(fname,lname){
+    var welcome="Welcome ";
+    document.getElementById('first').innerHTML=welcome+ " "+ fname+" "+ lname;
+    
 }
