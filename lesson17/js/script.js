@@ -62,3 +62,19 @@ function showhide() {
         document.getElementById('showhide').innerHTML = 'Hide';
     }
 }
+function fullname(){
+    var name="Musterfrau or Musterwomen";
+
+    var yourname=prompt('Please write your Name', name);
+    if(yourname == "Rania" || yourname!=""){
+        alert("It's great!! Hello "+ yourname);
+        // document.getElementById('fullname').innerHTML='<h1>Hello ' +yourname +'</h1>';
+        document.getElementById('h1').innerHTML='<h1>Hello ' +yourname +'</h1>';
+    }
+    else{
+        if(yourname==null|| yourname=="" || yourname=="Musterfrau or Musterwomen"){
+            alert("Is yourname Top Secret?");
+        }
+        
+    }
+}
