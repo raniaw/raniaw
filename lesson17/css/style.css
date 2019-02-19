@@ -19,7 +19,7 @@ body {
 }
 
 #myDiv {
-    border: 1px solid green;
+    border: 1px solid rgb(0, 128, 0);
     background-color: #faebd7;
     width: 200px;
     height: 300px;
@@ -28,8 +28,8 @@ body {
 
 
 #myDiv:hover {
-    border: 1px solid green;
-    background-color: rgb(40, 10, 88);
+    border: 1px solid #008000;
+    background-color: hsl(263, 80%, 19%);
     width: 300px;
     height: 400px;
     border-radius: 30px;
