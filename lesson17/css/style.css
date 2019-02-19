@@ -9,14 +9,19 @@
 }
 
 body {
-    /* background-color: #0000ff; */
+    background-color: #0000ff;
     /* background-repeat: repeat-y; */
 }
 
+body:hover{
+    background-image: linear-gradient(rgb(179, 255, 0) 0%,rgb(75, 184, 117) 30%,hsl(202, 29%, 47%) 70%,rgb(132, 0, 255) 90%);
+
+}
 .but {
     background: #ff0000;
     color: rgb(234, 238, 2);
 }
+
 
 #myDiv {
     border: 1px solid rgb(0, 128, 0);
@@ -29,7 +34,8 @@ body {
 
 #myDiv:hover {
     border: 1px solid #008000;
-    background-color: hsl(263, 80%, 19%);
+    /* background-color: hsl(263, 80%, 19%); */
+    background-image: linear-gradient(rgb(255, 0, 0) 0%,hsl(0, 0%, 100%) 30%,hsl(0, 0%, 100%) 70%,rgb(255, 0, 0) 90%);
     width: 300px;
     height: 400px;
     border-radius: 30px;
