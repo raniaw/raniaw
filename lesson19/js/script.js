@@ -20,6 +20,7 @@ function celcius(a) {
 }
  function docels(){
     document.getElementById('t-el').innerHTML = celcius(100); 
+    
  }
 
 
