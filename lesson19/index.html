@@ -8,6 +8,23 @@
     <body>
         <p id="f-el">This is paragraph</p>
         <!-- <p id="s-el" onload="tomath()"></p> -->
-        <p id="t-el" onchange="docels()">cels</p>
+        <!-- <p id="t-el" onchange="docels()">cels</p> -->
+        <p id="fr-el"></p>
+
+        <script>
+            //object -> user
+            var user={
+                fname: "Gerhard",
+                snume: "Simon",
+                isActivity: true
+            };
+            //function fuser
+            function fuser(obj){
+                var fname=obj.fname;
+                
+                window.alert("User's: " + fname);
+            }
+            document.getElementById('fr-el').innerHTML=fuser(user);
+        </script>
     </body>
 </html>
