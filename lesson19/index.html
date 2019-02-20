@@ -15,16 +15,43 @@
             //object -> user
             var user={
                 fname: "Gerhard",
-                snume: "Simon",
-                isActivity: true
+                sname: "Simon",
+                age:  36,
+                isActivity: true,
+                fullname: function(){
+                    return this.fname+ " "+this.sname;
+                }
             };
-            //function fuser
-            function fuser(obj){
-                var fname=obj.fname;
-                
-                window.alert("User's: " + fname);
+
+            var car={
+                color: "blackred",
+                speed_in_miles: 2560845,
+                brand: "Mercedes",
+                speed_in_kms: function(){
+                    return this.speed_in_miles/1.6;
+                }
+
             }
-            document.getElementById('fr-el').innerHTML=fuser(user);
+            //function fuser
+            // function fuser(obj){
+            //     var name=obj.fullname();
+            //     var age=obj.age;
+               
+                
+            //     window.alert("User: " + name+ "is "+ age+ " old");
+            //     // document.getElementById('fr-el').innerHTML=fuser(user);
+            // }
+            // document.getElementById('fr-el').innerHTML=fuser(user);
+
+            function fcar(obj){
+                var brand=obj.brand;
+                var speed_in_kms=obj.speed_in_kms();
+                            
+                window.alert("My car" + brand+ "travels at as speed of "+  speed_in_kms);
+               
+            }
+            document.getElementById('fr-el').innerHTML=fcar(car);
+            // document.getElementById('fr-el').innerHTML=fuser(user);
         </script>
     </body>
 </html>
