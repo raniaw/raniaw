@@ -1,0 +1,79 @@
+
+  
+  /* **************** */
+
+  div#first{
+    border: 1px solid rgb(170, 114, 226);
+    background-color: aqua;
+    position: absolute;
+    top:150px;
+    left: 150px ;
+    width: 100%;
+    z-index: 0;
+    /* height:40px; */
+}
+p.first{
+    color: blue;
+    font-size: 20px;
+    position: relative;
+    left: -20px;
+    top: -30px;
+    background-color: red;
+    width:50px;
+    z-index: 1;
+}
+
+/* div#first > div.second{ */
+div.second{
+    background-color: yellow;
+    position: absolute;
+    width:500px;
+    left: 50px;
+} 
+p#second{
+    color: brown;
+    font-size: 40px;
+
+} 
+
+div.third{
+    background-color: blue;
+    position: relative;
+    right: 50px;
+    z-index: 0;
+}
+p#third{
+    color:white;
+    font-size: 50px;
+}
+
+body{
+
+  background: purple;
+  animation: anbody 7s infinite;
+
+}
+
+div#myDiv{
+  width: 500px;
+  height: 250px;
+  background:blue;
+  animation: andiv 5s infinite;
+}
+@keyframes anbody{
+  form{
+    background: green;
+  }
+  to{
+    background: orange;
+  }
+}
+
+@keyframes andiv{
+  form{
+    font-size: 15px; color: white;
+  }
+  to{
+    font-size: 45px; color: lightcoral;
+  }
+}
