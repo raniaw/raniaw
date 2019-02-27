@@ -36,3 +36,10 @@
 "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe"
 // Bash on Ubuntu (on Windows)
 "terminal.integrated.shell.windows": "C:\\Windows\\System32\\bash.exe"
+
+// Set the default
+"editor.formatOnSave": false,
+// Enable per-language
+"[javascript]": {
+    "editor.formatOnSave": true
+}
