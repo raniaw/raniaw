@@ -1,0 +1,19 @@
+#first {
+    width: 100%;
+    height: 50px;
+}
+
+#img {
+    /* width:500px; */
+    display: none;
+}
+
+body {
+    background-color: #0000ff;
+    /* background-repeat: repeat-y; */
+}
+
+.but {
+    background: #ff0000;
+    color: rgb(234, 238, 2);
+}

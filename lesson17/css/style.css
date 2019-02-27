@@ -1,0 +1,92 @@
+#first {
+    width: 100%;
+    height: 50px;
+}
+
+#img {
+    /* width:500px; */
+    display: none;
+}
+
+body {
+    background-color: #0000ff;
+    /* background-repeat: repeat-y; */
+}
+
+body:hover {
+    background-image: linear-gradient(rgb(179, 255, 0) 0%, rgb(75, 184, 117) 30%, hsl(202, 29%, 47%) 70%, rgb(132, 0, 255) 90%);
+}
+
+.but {
+    background: #ff0000;
+    color: rgb(234, 238, 2);
+}
+
+#myDiv {
+    border: 1px solid rgb(0, 128, 0);
+    background-color: #faebd7;
+    width: 200px;
+    height: 300px;
+}
+
+#myDiv:hover {
+    border: 1px solid #008000;
+    /* background-color: hsl(263, 80%, 19%); */
+    background-image: linear-gradient(hsl(0, 100%, 50%) 0%, rgb(255, 255, 255) 30%, rgb(255, 255, 255) 70%, rgb(255, 0, 0) 90%);
+    width: 300px;
+    height: 200px;
+    border-radius: 30px;
+}
+
+#first {
+    width: 100%;
+    height: 50px;
+    
+}
+
+.para {
+    border: 2px dotted #e2cdcd;
+    height:100px;
+}
+
+#fullname{
+    border:2px solid red;
+    /* height:50px; */
+    padding:50px;
+    background-color: aqua;
+}
+
+#fullname h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+    
+}
+
+/* h2#test{
+    background-image: linear-gradient(hsl(0, 100%, 50%) 0%, rgb(255, 255, 255) 30%, rgb(255, 255, 255) 70%, rgb(255, 0, 0) 90%);
+    font-size:20px;
+    position: absolute;
+    top:150px;
+    height:150px;
+    color:white;
+    border:2px solid greenyellow;
+} */
+div#fullname > div#test{
+    
+    font-size:10px;
+    position: relative;
+    top:50px;
+    height:350px;
+    color:white;
+    border:2px solid greenyellow;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+/* div#test{
+    background-image: linear-gradient(hsl(0, 100%, 50%) 0%, rgb(255, 255, 255) 30%, rgb(255, 255, 255) 70%, rgb(255, 0, 0) 90%);
+    font-size:20px;
+    position: absolute;
+    top:150px;
+    height:150px;
+    color:white;
+} */

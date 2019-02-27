@@ -1,0 +1,38 @@
+{
+    "workbench.colorCustomizations": {
+        "activityBar.background": "#000000",
+        "titleBar.activeBackground": "#2c096d",
+        "titleBar.activeForeground": "#FCF9FB"
+    }
+}
+// Shell commands, see default for examples.
+"startanyshell.shells": [
+    {
+        "description": "Windows Command Prompt",
+        "command": "start \"%description%\" /WAIT %comspec%"
+    },
+    {
+        "description": "Git Bash 2",
+        "command": "\"C:\\Program Files\\Git\\git-bash.exe\" \"--cd=%path%\""
+    },
+    {
+        "description": "Windows Powershell",
+        "command": "start \"%description%\" powershell.exe -noexit"
+    },
+    {
+        "description": "Developer Command Prompt for VS2015",
+        "command": "start \"%description%\" /WAIT \"%HOMEDRIVE%\\Program Files (x86)\\Microsoft Visual Studio 14.0\\Common7\\Tools\\VsDevCmd.bat\""
+    },
+    {
+        "description": "Cmder",
+        "command": "cmder.exe /start \"%path%\""
+    }
+]
+// Command Prompt
+"terminal.integrated.shell.windows": "C:\\Windows\\System32\\cmd.exe"
+// PowerShell
+"terminal.integrated.shell.windows": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe"
+// Git Bash
+"terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe"
+// Bash on Ubuntu (on Windows)
+"terminal.integrated.shell.windows": "C:\\Windows\\System32\\bash.exe"
