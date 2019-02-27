@@ -1,45 +1,46 @@
 /* 
 this is my css-file
 */
+
 h1 {
-    color:blueviolet;
+    color: blueviolet;
     background-color: aqua;
-    width:300px;
+    width: 300px;
     text-align: center;
     text-transform: capitalize;
 }
 
 p {
-   color: aliceblue;
-   
-   padding: 10px;
-   width: 800px;
-   text-align: center;
-   font-size: 27px;
-   
+    color: aliceblue;
+    padding: 10px;
+    width: 800px;
+    text-align: center;
+    font-size: 27px;
 }
 
-#text{
-    background-image: -webkit-radial-gradient(red,blue);
+#text {
+    background-image: -webkit-radial-gradient(red, blue);
 }
-#text1{
+
+#text1 {
     color: lightskyblue;
     font-size: 10px;
 }
-#text2{
-    background-color:yellowgreen;
-    color:rgb(205, 68, 50);
-    text-align: justify;
 
+#text2 {
+    background-color: yellowgreen;
+    color: rgb(205, 68, 50);
+    text-align: justify;
 }
-.safari{
+
+.safari {
     border-color: rgb(8, 8, 122);
-    color:white;
+    color: white;
     padding: 25px;
     background-color: rgb(26, 117, 4);
-    width:900px;
+    width: 900px;
     text-shadow: 20px;
     text-transform: uppercase;
     text-align: center;
-    background-image: -webkit-linear-gradient(red,yellow)
+    background-image: -webkit-linear-gradient(red, yellow)
 }
